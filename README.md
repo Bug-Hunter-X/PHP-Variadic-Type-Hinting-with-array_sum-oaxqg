@@ -1,0 +1,2 @@
+# PHP Variadic Type Hinting and array_sum Bug
+This repository demonstrates a subtle bug related to PHP's variadic parameter type hinting when used in conjunction with the `array_sum` function.  The core issue revolves around the implicit type conversion that occurs when a variadic parameter is passed to `array_sum` and a potential unexpected return value.
